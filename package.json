@@ -1,0 +1,20 @@
+{
+  "name": "next-move",
+  "version": "1.0.0",
+  "description": "Predict where a person will move next using their location history",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "machine",
+    "learning",
+    "location",
+    "gps"
+  ],
+  "author": "Cody Romano",
+  "license": "MIT",
+  "devDependencies": {
+    "jsonfile": "^2.4.0"
+  }
+}
