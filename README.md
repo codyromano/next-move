@@ -7,6 +7,13 @@ Predict where a user will travel next by analyzing their location history
 
 *Estimated setup time: 5 minutes*
 
+**Requirements**
+- `node`
+- `npm`
+- `python`
+
+**Steps**
+
 1. [Download your Google location history](https://takeout.google.com/settings/takeout) and save it as `RawLocationHistory.json`. **The name matters.**
 2. `cd` to the folder with `RawLocationHistory.json` and run the setup script.
 ```
