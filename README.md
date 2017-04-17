@@ -16,3 +16,8 @@ sh setup.sh
 3. You're all set!
 ```
 open http://localhost:8080/
+```
+
+## Customize (Optional)
+
+Play around with `config.js` to adjust the behavior of the location model.
