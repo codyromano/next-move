@@ -12,13 +12,13 @@ const map = $('#map');
 function showMap(coords) {
   $('#coords').text(coords);
   $('#map').attr('src',
-    `https://maps.googleapis.com/maps/api/staticmap?maptype=terrain&center=${coords}&zoom=16&size=640x640`);
+    `https://maps.googleapis.com/maps/api/staticmap?maptype=terrain&center=${coords}&zoom=15&size=640x640`);
 }
 
 function animatePath(coordsList, index = 0) {
   if (coordsList[index]) {
     showMap(coordsList[index]);
-    setTimeout(() => animatePath(coordsList, ++index), 3000);
+    setTimeout(() => animatePath(coordsList, ++index), 5000);
   }
 }
 
